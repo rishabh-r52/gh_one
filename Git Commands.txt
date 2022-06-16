@@ -12,6 +12,7 @@ git branch // Check current branch name
 git checkout -b "branch name" // Create a new branch
 git checkout "branch name" // Switch to a branch
 git branch -d "branch name" // Delete a branch // Before deleting, you must switch to another branch
+git merge "branch name" // Merge branch with Master // Before merging, go to master branch
 
 
 git log // Check commits
