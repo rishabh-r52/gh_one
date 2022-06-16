@@ -2,10 +2,17 @@
 git config --global user.email "you@example.com" // Configure globarl user email ID
 git config --global user.name "Your Name" // Configure globarl user name
 
+
 git init // Initialize empty Local Git Repository
 git clone "Repo Address" //Clone a repository
 git status // Check if there are any changes to be addressed
 git diff "filename" // Check the exact changes in the Repository
+
+
+git branch // Check current branch name
+git checkout -b "branch name" // Create a new branch
+git branch -d "branch name" // Delete a branch // Before deleting, you must switch to another branch
+
 
 git add "filename" // Stage the change for commit
 git commit -m "Commit Message" // Commit the changes to the Repository
