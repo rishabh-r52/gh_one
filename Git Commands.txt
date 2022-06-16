@@ -18,3 +18,7 @@ git merge "branch name" // Merge branch with Master // Before merging, go to mas
 git log // Check commits
 git add "filename" // Stage the change for commit
 git commit -m "Commit Message" // Commit the changes to the Repository
+git reset --hard HEAD^ // Delete the last commit
+git reset --soft "Commit ID" // Delete the last commit but keep the changes staged
+git restore --staged "filename" // Remove current staged item from the staging area
+git restore "filename" // Completely remove the changes in the file (File removed from staging area)
