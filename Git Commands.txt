@@ -1,0 +1,4 @@
+git init // Initialize empty Local Git Repository
+git clone "Repo Address" //Clone a repository
+git status // Check if there are any changes to be addressed
+git diff "filename" // Check the exact changes in the Repository
