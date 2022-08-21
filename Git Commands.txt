@@ -37,3 +37,15 @@ git push -u origin main
 git remote add origin https://github.com/userName/repoName.git
 git branch -M main
 git push -u origin main
+
+
+
+--------------------What i follow------------------------
+
+-> create a folder in Windows
+-> Traverse to that folder via CMD
+-> git init // To turn that folder into a repository
+-> gh repo create // To push local repo to GitHub
+-> git add . // To add all the new files to the staging area
+-> git commit -m "first commit"
+-> git push -u origin master // To push the repo from branch master(local) to origin
