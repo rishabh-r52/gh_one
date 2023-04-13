@@ -37,7 +37,7 @@ git push -u origin main
 git remote add origin https://github.com/userName/repoName.git
 git branch -M main
 git push -u origin main
-
+git remote -v // checks existing remotes
 
 
 --------------------What i follow------------------------
