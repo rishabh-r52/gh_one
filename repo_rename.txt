@@ -1,0 +1,26 @@
+To change the name of a repository:
+
+    1. Go to settings of your repository on GitHub.
+    2. Rename your repository.
+
+    # These two steps will rename your repository on GitHub but these changes will not be reflected on your local repostory automatically.
+
+To reflect the changes locally:
+
+    1. Rename your local repository folder.
+        e.g. let your folder be C:\gh_one\
+            let renamed folder be C:\git-commands\
+
+    2. enter the repository folder.
+        open the location C:\github-repo\ on your terminal/command prompt.
+
+    3. check your remotes and branches using:
+        git remote -v
+        git branch
+
+    4. rename your remotes:
+        git remote set-url origin https://github.com/your_username/git-commands
+
+    5. Confirm changes with:
+        git remote -v
+        git branch
