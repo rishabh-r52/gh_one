@@ -1,1 +1,53 @@
-Hello World!
+PS C:\Projects\repositories> dir
+
+PS C:\Projects\repositories> mkdir test
+
+PS C:\Projects\repositories> cd test
+
+PS C:\Projects\repositories\test> echo "This is a test repo" >>ReadMe.md
+
+PS C:\Projects\repositories\test> git init
+
+PS C:\Projects\repositories\test> git add .
+
+PS C:\Projects\repositories\test> git commit -m "first commit"
+
+PS C:\Projects\repositories\test> git branch -M main
+
+CREATE REPOSITORY ON GITHUB NAMED TEST
+
+PS C:\Projects\repositories\test> git remote add origin git@github.com:rishabh-r52/test.git
+
+PS C:\Projects\repositories\test> git push -u origin main
+
+PS C:\Projects\repositories\test> git push -u origin main
+
+PS C:\Projects\repositories\test> git tag v1 -m "Version 1"
+
+PS C:\Projects\repositories\test> git tag
+
+PS C:\Projects\repositories\test> git push origin v1
+
+PS C:\Projects\repositories\test> git checkout -b branch1
+
+PS C:\Projects\repositories\test> git branch -v
+
+PS C:\Projects\repositories\test> git remote -v
+
+PS C:\Projects\repositories\test> git branch --all
+
+PS C:\Projects\repositories\test> echo "This is added in branch: branch1" >> Readme.md
+
+PS C:\Projects\repositories\test> git status
+
+PS C:\Projects\repositories\test> git add .
+
+PS C:\Projects\repositories\test> git commit -m "Version 2 Text Added"
+
+PS C:\Projects\repositories\test> git push -u origin branch1
+
+PS C:\Projects\repositories\test> git switch -
+
+PS C:\Projects\repositories\test> git merge branch1
+
+PS C:\Projects\repositories\test> git push -u origin main
